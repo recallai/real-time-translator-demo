@@ -2,6 +2,8 @@
 
 ![](./real-time-translator.png)
 
+### [Check out a demo here](https://www.loom.com/share/e8294d45653f4e3995bb8fffa5ea74a6?sid=ff65ca58-bf41-4b6a-bd1c-4ab6d39d7e66)
+
 This is a sample app demonstrating how to leverage [Recall.ai](https://www.recall.ai/) to create a real-time notetaker/translator for video conferences.
 
 While this example specifically uses the real-time transcription WebSocket API, you can also use the [Output Media](https://docs.recall.ai/docs/stream-media) feature to receive and output low-latency audio.
