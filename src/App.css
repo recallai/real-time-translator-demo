@@ -1,0 +1,25 @@
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.app-title {
+    position: sticky;
+    top: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 10;
+}
