@@ -1,4 +1,4 @@
-// https://cloud.google.com/translate/docs/languages#adaptive_translation
+// https://cloud.google.com/translate/docs/languages
 export enum LanguageCode {
     Afrikaans = "af",
     Albanian = "sq",

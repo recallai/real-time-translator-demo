@@ -32,11 +32,21 @@ npm install
 
 3. Set Up Environment Variables
 
-Clone .env.example and fill out the following environment variables:
+Clone `.env.example`:
+
+```bash
+cp .env.example .env
+```
+
+Then fill out the following environment variables in your new `.env`:
 
 ```env
 VITE_GOOGLE_TRANSLATE_API_KEY=your_google_translate_api_key
 ```
+
+(Optional) You can set a default language by setting the `VITE_DEFAULT_TARGET_LANGUAGE_CODE` to a [LanguageCode](./src/utils/language.ts#L2) value.
+
+If this is not set, you can tell the bot what language you want to translate to in the call.
 
 4. Run the App
 

@@ -37,7 +37,9 @@ interface Utterance {
 export const useTranscriptWebSocket = (wsUrl: string) => {
     const RECONNECT_RETRY_INTERVAL_MS = 3000;
 
-    const targetLanguageRef = useRef<LanguageCode | null>(null);
+    const targetLanguageRef = useRef<LanguageCode | undefined>(
+        import.meta.env.VITE_DEFAULT_TARGET_LANGUAGE_CODE
+    );
     const wsRef = useRef<WebSocket | null>(null);
     const retryIntervalRef = useRef<number | null>(null);
 
