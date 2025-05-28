@@ -94,8 +94,12 @@ curl --request POST \
       }
     }
   },
-  "transcription_options": {
-    "provider": "meeting_captions"
+  "recording_config": {
+    "transcript": {
+      "provider": {
+        "meeting_captions": {}
+      }
+    }
   }
 }'
 ```
